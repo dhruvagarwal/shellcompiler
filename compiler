@@ -1,0 +1,12 @@
+echo "Enter filename with path- "
+read fname
+g++ $fname -o out
+
+
+if [ $? -eq 0 ]
+then 
+./out
+fi
+
+exit 0
+
